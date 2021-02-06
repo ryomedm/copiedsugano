@@ -1,0 +1,209 @@
+@media(max-width:1251px){
+   .oshiBox{
+      width: 70%;
+   }
+}
+@media(min-width:1105px){
+   .menuSp{
+      display: none;
+   }
+}
+@media(max-width:1105px){
+   .header{
+      max-width: 800px;
+      margin: 0 auto;
+   }
+   .headerNav{
+      display: none;
+   }
+   .headerLogo{
+      width: 120px;
+      height:50px;
+   }
+   .headerMiddleTxt{
+      padding-top: 140px;
+      font-size:30px;
+   }
+   .headerBack{
+      height: 50vh;
+   }
+   .oshiTopTxt{
+      padding-top: 50px; 
+      padding-bottom: 20px;
+      font-size: 30px;
+   }
+   .oshirase{
+      max-width: 900px;
+      margin: 0 auto;
+   }
+   .oshiBox{
+      margin: 0 0 120px 0;
+      width: 100%;
+   }
+   .oshiTxt{
+      font-size: 20px;
+   }
+   .sekouTopTxt{
+      font-size: 30px;
+   }
+   .sekouPicInner{
+      margin-bottom: 60px;
+   }
+   .jissekiBtn{
+      margin: 0;
+   }
+   .lastContents{
+      margin-top: 50px;
+   }
+}
+@media(max-width:1051px){
+   .sekouTopTxt{
+      padding-bottom: 60px;
+   }
+   .sekouPicBox{
+      display: block;
+      max-width: 800px;
+      margin: 0 auto;
+   }
+   .sekouPic{
+      width: 100%;
+   }
+   .sekouTitle{
+      padding-top: 40px;
+   }
+   .lastImgBox{
+      display: block;
+   }
+   .lastImg{
+      width: 100%;
+   }
+}
+@media(max-width:943px){
+   .oshirase{
+      max-width: 700px;
+      margin:  0 auto;
+   }
+}
+@media(max-width:857px){
+   .sekouPicBox{
+      max-width: 700px;
+      margin: 0 auto;
+   }
+}
+@media(max-width:843px){
+   .header{
+      max-width: 650px;
+      margin: 0 auto;
+   }
+}
+@media(max-width:823px){
+   .footerContents{
+      max-width: 700px;
+      margin: 0 auto;
+   }
+   .footerLogo{
+      margin-top: 30px;
+      width: 80px;
+      height: 40px;
+   }
+   .footerNav li{
+      margin-left: 13px;
+      font-size: 15px;
+   }
+}
+@media(max-width:745px){
+   .oshirase{
+      max-width: 600px;
+      margin:  0 auto;
+   }
+}
+@media(max-width:733px){
+   .header{
+      max-width: 600px;
+      margin: 0 auto;
+   }
+   .sekouPicBox{
+      max-width: 600px;
+      margin: 0 auto;
+   }
+}
+@media(max-width:635px){
+   .header{
+      max-width: 500px;
+      margin: 0 auto;
+   }
+   .oshirase{
+      max-width: 500px;
+      margin:  0 auto;
+   }
+   .oshiTxt{
+      font-size: 15px;
+   }
+   .sekouPicBox{
+      max-width: 500px;
+      margin: 0 auto;
+   }
+}
+@media(max-width:533px){
+   .header{
+      max-width: 420px;
+      margin: 0 auto;
+   }
+   .headerLogo{
+      width: 120px;
+      height: 50px;
+   }
+   .headerMiddleTxt{
+      font-size: 24px;
+   }
+   .oshiTopTxt{
+      font-size: 23px;
+   }
+   .oshirase{
+      max-width: 400px;
+      margin: 0 auto;
+   }
+   .oshiTxt{
+      font-size: 14px;
+   }
+   .sekouJirei{
+      max-width: 420px;
+      margin: 0 auto;
+   }
+}
+@media(max-width:455px){
+   .header{
+      max-width: 390px;
+      margin: 0 auto;
+   }
+   .oshirase{
+      max-width: 390px;
+      margin: 0 auto;
+   }
+   .sekouPicBox{
+      max-width: 350px;
+      margin: 0 auto;
+   }
+   .footerContents{
+      display: block;
+   }
+   .footerLogo{
+      margin: 5% 0 4% 5%;
+   }
+   .footerNav{
+      padding: 3%;
+      margin: 0 0 0 37px;
+   }
+}
+@media(max-width:421px){
+   .header{
+      width: 100%;
+   }
+   .oshiBox{
+      display: block;
+   }
+   .oshirase{
+      max-width: 300px;
+      margin: 0 auto;
+   }
+}
