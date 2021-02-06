@@ -1,0 +1,200 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.wrapper{
+   max-width: 1100px;
+   margin: 0 auto;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+}
+.headerBack{
+   background-image: url("imgs/main.png");
+   background-position: center;
+   background-size: cover;
+   height: 80vh;
+}
+.headerLogo{
+   width: 130px;
+   height: 60px;
+   margin-top: 20px;
+}
+.headerNav{
+   margin-top: 36px;
+}
+.headerNav a{
+   text-decoration: none;
+   color: #000;
+   font-family: 'Noto Serif JP', serif;
+}
+.headerNav li {
+   font-size: 20px;
+   margin-left: 53px;
+   display: inline-block;
+}
+.headerMiddleTxt{
+   font-family: 'Noto Serif JP', serif;
+   text-align: center;
+   padding-top: 290px;
+   font-size: 50px;
+}
+.oshiTxt{
+   border-bottom: 1px solid #000;
+   text-align: center;
+   font-size: 22px;
+   padding: 25px 0 25px 0px;
+   text-align: left;
+   font-family: 'Noto Serif JP', serif;
+}
+.oshiTopTxt{
+   text-align: center;
+   font-family: 'Noto Serif JP', serif;
+   padding-top: 100px;
+   padding-bottom: 60px;
+   font-size: 40px;
+}
+.oshiEmer{
+   border: 1px solid #000;
+   padding: 6px 7px;
+   font-size: 12px;
+   margin: 0 24px 0 24px;
+}
+.oshiBox{
+   display: block;
+   max-width: 900px;
+   width: 50%;
+   margin: 0 auto;
+   margin-bottom: 140px;
+}
+.sekouTopTxt{
+   font-family: 'Noto Serif JP', serif;
+   font-size: 40px;
+   text-align: center;
+}
+.sekouJirei{
+   margin-top: 180px;
+   max-width: 1250px;
+   margin: 0 auto;
+}
+.sekouPic{
+   width: 500px;
+}
+.sekouPicBox{
+   display: flex;
+   margin-top: 100px;
+   justify-content: space-around;
+}
+.sekouTxt{
+   text-align: center;
+   font-family: 'Noto Serif JP', serif;
+   padding-top: 5px;
+   padding-bottom: 10px;
+}
+.sekouBtn{
+   text-align: center;
+   display: block;
+}
+.sekouTitle{
+   font-family: 'Noto Serif JP', serif;
+   padding-top: 10px;
+   font-size: 27px;
+   padding-bottom: 5px;
+   text-align: center;
+}
+.sekouBtn{
+   width: 50%;
+   font-family: 'Noto Serif JP', serif;
+   text-decoration: none;
+   color: #000;
+   padding: 10px 10px;
+   border-top: 1px solid #000;
+   margin-left: auto;
+   margin-right: auto;
+   border-bottom: 1px solid #000;
+}
+.sekouPicInner{
+   margin-bottom: 120px;
+}
+.jissekiBtn{
+   font-family: 'Noto Serif JP', serif;
+   border: 1px solid #000;
+   text-decoration: none;
+   color: #000;
+   padding: 9px 29px;
+   font-size: 20px;
+}
+.sekouJissekiBtn{
+   text-align: center;
+}
+.sekouJissekiBtn a:hover{
+   background: #000;
+   color: #fff;
+   transition: 0.5s ease-in-out;
+   border: 1px solid #fff;
+}
+.lastImgBox{
+   display: flex;
+}
+.lastImg{
+   padding-top: 80px;
+   vertical-align: baseline;
+}
+.lastImg img{
+   width: 100%;
+}
+img{
+   vertical-align: bottom;
+   border: none;
+}
+img:hover{
+   opacity: 0.5;
+   transition: 0.5s;
+}
+.footer{
+   background-color: #000;
+}
+.footerLogo{
+   width: 130px;
+   height: 60px;
+   color: #fff;
+   margin-top: 20px;
+}
+.footerNav{
+   margin-top: 36px;
+}
+.footerNav a{
+   text-decoration: none;
+   color: #fff;
+   font-family: 'Noto Serif JP', serif;
+}
+.footerNav li {
+   font-size: 20px;
+   margin-left: 53px;
+   display: inline-block;
+}
+.footerTxt{
+   color: #fff;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 10px;
+}
+.footerContents{
+   display: flex;
+   justify-content: space-around;
+}
+.menuSp{
+   margin-top: 27px;
+}
+#check{
+   display: none;
+}
+.line{
+   cursor: pointer;
+   background-color: #555;
+   width: 26px;
+   height: 4px;
+   margin-top: 6px;
+}
